@@ -141,6 +141,9 @@ function check() {
 
 
     if (btn1.value == "X" && btn2.value == "X" && btn3.value == "X") {
+        btn1.style.backgroundColor = 'green';
+        btn2.style.backgroundColor = 'green';
+        btn3.style.backgroundColor = 'green';
         console.log("X won");
         info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn4.disabled = "true";
@@ -150,6 +153,9 @@ function check() {
         btn8.disabled = "true";
         btn9.disabled = "true";
     } else if (btn1.value == "X" && btn4.value == "X" && btn7.value == "X") {
+        btn1.style.backgroundColor = 'green';
+        btn4.style.backgroundColor = 'green';
+        btn7.style.backgroundColor = 'green';
         console.log("X won");
         info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn2.disabled = "true";
@@ -159,6 +165,9 @@ function check() {
         btn8.disabled = "true";
         btn9.disabled = "true";
     } else if (btn7.value == "X" && btn8.value == "X" && btn9.value == "X") {
+        btn7.style.backgroundColor = 'green';
+        btn8.style.backgroundColor = 'green';
+        btn9.style.backgroundColor = 'green';
         console.log("X won");
         info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
@@ -168,6 +177,9 @@ function check() {
         btn5.disabled = "true";
         btn6.disabled = "true";
     } else if (btn9.value == "X" && btn6.value == "X" && btn3.value == "X") {
+        btn9.style.backgroundColor = 'green';
+        btn6.style.backgroundColor = 'green';
+        btn3.style.backgroundColor = 'green';
         console.log("X won");
         info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
@@ -177,6 +189,9 @@ function check() {
         btn7.disabled = "true";
         btn8.disabled = "true";
     } else if (btn1.value == "X" && btn5.value == "X" && btn9.value == "X") {
+        btn1.style.backgroundColor = 'green';
+        btn5.style.backgroundColor = 'green';
+        btn9.style.backgroundColor = 'green';
         console.log("X won");
         info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn2.disabled = "true";
@@ -186,6 +201,9 @@ function check() {
         btn7.disabled = "true";
         btn8.disabled = "true";
     } else if (btn3.value == "X" && btn5.value == "X" && btn7.value == "X") {
+        btn3.style.backgroundColor = 'green';
+        btn5.style.backgroundColor = 'green';
+        btn7.style.backgroundColor = 'green';
         console.log("X won");
         info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
@@ -195,6 +213,9 @@ function check() {
         btn8.disabled = "true";
         btn9.disabled = "true";
     } else if (btn2.value == "X" && btn5.value == "X" && btn8.value == "X") {
+        btn2.style.backgroundColor = 'green';
+        btn5.style.backgroundColor = 'green';
+        btn8.style.backgroundColor = 'green';
         console.log("X won");
         info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
@@ -204,6 +225,9 @@ function check() {
         btn7.disabled = "true";
         btn9.disabled = "true"; //0
     } else if (btn4.value == "X" && btn5.value == "X" && btn6.value == "X") {
+        btn4.style.backgroundColor = 'green';
+        btn5.style.backgroundColor = 'green';
+        btn6.style.backgroundColor = 'green';
         console.log("X won");
         info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
@@ -213,6 +237,9 @@ function check() {
         btn8.disabled = "true";
         btn9.disabled = "true"; //0
     } else if (btn1.value == "0" && btn2.value == "0" && btn3.value == "0") {
+        btn1.style.backgroundColor = 'green';
+        btn2.style.backgroundColor = 'green';
+        btn3.style.backgroundColor = 'green';
         console.log("0 won");
         info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn4.disabled = "true";
@@ -222,6 +249,9 @@ function check() {
         btn8.disabled = "true";
         btn9.disabled = "true";
     } else if (btn1.value == "0" && btn4.value == "0" && btn7.value == "0") {
+        btn1.style.backgroundColor = 'green';
+        btn4.style.backgroundColor = 'green';
+        btn7.style.backgroundColor = 'green';
         console.log("0 won");
         info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn2.disabled = "true";
@@ -231,6 +261,9 @@ function check() {
         btn8.disabled = "true";
         btn9.disabled = "true";
     } else if (btn7.value == "0" && btn8.value == "0" && btn9.value == "0") {
+        btn7.style.backgroundColor = 'green';
+        btn8.style.backgroundColor = 'green';
+        btn9.style.backgroundColor = 'green';
         console.log("0 won");
         info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊"
         btn1.disabled = "true";
@@ -240,6 +273,9 @@ function check() {
         btn5.disabled = "true";
         btn6.disabled = "true";
     } else if (btn9.value == "0" && btn6.value == "0" && btn3.value == "0") {
+        btn9.style.backgroundColor = 'green';
+        btn6.style.backgroundColor = 'green';
+        btn3.style.backgroundColor = 'green';
         console.log("0 won");
         info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn1.disabled = "true";
@@ -249,6 +285,9 @@ function check() {
         btn7.disabled = "true";
         btn8.disabled = "true";
     } else if (btn1.value == "0" && btn5.value == "0" && btn9.value == "0") {
+        btn1.style.backgroundColor = 'green';
+        btn5.style.backgroundColor = 'green';
+        btn9.style.backgroundColor = 'green';
         console.log("0 won");
         info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn2.disabled = "true";
@@ -258,6 +297,9 @@ function check() {
         btn7.disabled = "true";
         btn8.disabled = "true";
     } else if (btn3.value == "0" && btn5.value == "0" && btn7.value == "0") {
+        btn3.style.backgroundColor = 'green';
+        btn5.style.backgroundColor = 'green';
+        btn7.style.backgroundColor = 'green';
         console.log("0 won");
         info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn1.disabled = "true";
@@ -267,6 +309,9 @@ function check() {
         btn8.disabled = "true";
         btn9.disabled = "true";
     } else if (btn2.value == "0" && btn5.value == "0" && btn8.value == "0") {
+        btn2.style.backgroundColor = 'green';
+        btn5.style.backgroundColor = 'green';
+        btn8.style.backgroundColor = 'green';
         console.log("0 won");
         info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn1.disabled = "true";
@@ -276,6 +321,9 @@ function check() {
         btn7.disabled = "true";
         btn9.disabled = "true";
     } else if (btn4.value == "0" && btn5.value == "0" && btn6.value == "0") {
+        btn4.style.backgroundColor = 'green';
+        btn5.style.backgroundColor = 'green';
+        btn6.style.backgroundColor = 'green';
         console.log("0 won");
         info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn1.disabled = "true";
@@ -288,6 +336,15 @@ function check() {
         (btn3.value == "X" || btn3.value == "0") && (btn4.value == "X" || btn4.value == "0") && (btn5.value == "X" || btn5.value == "0") && (btn6.value == "X" || btn6.value == "0")
         && (btn7.value == "X" || btn7.value == "0") && (btn8.value == "X" || btn8.value == "0")
         && (btn9.value == "X" || btn9.value == "0")) {
+            btn2.style.backgroundColor = 'red';
+            btn3.style.backgroundColor = 'red';
+            btn1.style.backgroundColor = 'red';
+            btn4.style.backgroundColor = 'red';
+            btn5.style.backgroundColor = 'red';
+            btn6.style.backgroundColor = 'red';
+            btn7.style.backgroundColor = 'red';
+            btn8.style.backgroundColor = 'red';
+            btn9.style.backgroundColor = 'red';
         info.innerHTML = "Match is Tied, Seems Like both are tough competitors 🤔";
     }
 }
