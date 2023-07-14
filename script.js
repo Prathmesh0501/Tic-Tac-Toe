@@ -336,15 +336,15 @@ function check() {
         (btn3.value == "X" || btn3.value == "0") && (btn4.value == "X" || btn4.value == "0") && (btn5.value == "X" || btn5.value == "0") && (btn6.value == "X" || btn6.value == "0")
         && (btn7.value == "X" || btn7.value == "0") && (btn8.value == "X" || btn8.value == "0")
         && (btn9.value == "X" || btn9.value == "0")) {
-            btn2.style.backgroundColor = 'red';
-            btn3.style.backgroundColor = 'red';
-            btn1.style.backgroundColor = 'red';
-            btn4.style.backgroundColor = 'red';
-            btn5.style.backgroundColor = 'red';
-            btn6.style.backgroundColor = 'red';
-            btn7.style.backgroundColor = 'red';
-            btn8.style.backgroundColor = 'red';
-            btn9.style.backgroundColor = 'red';
+        btn2.style.backgroundColor = 'red';
+        btn3.style.backgroundColor = 'red';
+        btn1.style.backgroundColor = 'red';
+        btn4.style.backgroundColor = 'red';
+        btn5.style.backgroundColor = 'red';
+        btn6.style.backgroundColor = 'red';
+        btn7.style.backgroundColor = 'red';
+        btn8.style.backgroundColor = 'red';
+        btn9.style.backgroundColor = 'red';
         info.innerHTML = "Match is Tied, Seems Like both are tough competitors 🤔";
     }
 }
