@@ -142,7 +142,7 @@ function check() {
 
     if (btn1.value == "X" && btn2.value == "X" && btn3.value == "X") {
         console.log("X won");
-        info.innerHTML = "X Won The Game";
+        info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn4.disabled = "true";
         btn5.disabled = "true";
         btn6.disabled = "true";
@@ -151,7 +151,7 @@ function check() {
         btn9.disabled = "true";
     } else if (btn1.value == "X" && btn4.value == "X" && btn7.value == "X") {
         console.log("X won");
-        info.innerHTML = "X Won The Game";
+        info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn2.disabled = "true";
         btn3.disabled = "true";
         btn5.disabled = "true";
@@ -160,7 +160,7 @@ function check() {
         btn9.disabled = "true";
     } else if (btn7.value == "X" && btn8.value == "X" && btn9.value == "X") {
         console.log("X won");
-        info.innerHTML = "X Won The Game";
+        info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
         btn2.disabled = "true";
         btn3.disabled = "true";
@@ -169,7 +169,7 @@ function check() {
         btn6.disabled = "true";
     } else if (btn9.value == "X" && btn6.value == "X" && btn3.value == "X") {
         console.log("X won");
-        info.innerHTML = "X Won The Game";
+        info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
         btn2.disabled = "true";
         btn4.disabled = "true";
@@ -178,7 +178,7 @@ function check() {
         btn8.disabled = "true";
     } else if (btn1.value == "X" && btn5.value == "X" && btn9.value == "X") {
         console.log("X won");
-        info.innerHTML = "X Won The Game";
+        info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn2.disabled = "true";
         btn3.disabled = "true";
         btn4.disabled = "true";
@@ -187,7 +187,7 @@ function check() {
         btn8.disabled = "true";
     } else if (btn3.value == "X" && btn5.value == "X" && btn7.value == "X") {
         console.log("X won");
-        info.innerHTML = "X Won The Game";
+        info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
         btn2.disabled = "true";
         btn4.disabled = "true";
@@ -196,7 +196,7 @@ function check() {
         btn9.disabled = "true";
     } else if (btn2.value == "X" && btn5.value == "X" && btn8.value == "X") {
         console.log("X won");
-        info.innerHTML = "X Won The Game";
+        info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
         btn3.disabled = "true";
         btn4.disabled = "true";
@@ -205,7 +205,7 @@ function check() {
         btn9.disabled = "true"; //0
     } else if (btn4.value == "X" && btn5.value == "X" && btn6.value == "X") {
         console.log("X won");
-        info.innerHTML = "X Won The Game";
+        info.innerHTML = "X Won The Game 🎉\n Better Luck Next Time Player 0 😊";
         btn1.disabled = "true";
         btn2.disabled = "true";
         btn3.disabled = "true";
@@ -214,7 +214,7 @@ function check() {
         btn9.disabled = "true"; //0
     } else if (btn1.value == "0" && btn2.value == "0" && btn3.value == "0") {
         console.log("0 won");
-        info.innerHTML = "0 Won The Game";
+        info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn4.disabled = "true";
         btn5.disabled = "true";
         btn6.disabled = "true";
@@ -223,7 +223,7 @@ function check() {
         btn9.disabled = "true";
     } else if (btn1.value == "0" && btn4.value == "0" && btn7.value == "0") {
         console.log("0 won");
-        info.innerHTML = "0 Won The Game";
+        info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn2.disabled = "true";
         btn3.disabled = "true";
         btn5.disabled = "true";
@@ -232,7 +232,7 @@ function check() {
         btn9.disabled = "true";
     } else if (btn7.value == "0" && btn8.value == "0" && btn9.value == "0") {
         console.log("0 won");
-        info.innerHTML = "0 Won The Game";
+        info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊"
         btn1.disabled = "true";
         btn2.disabled = "true";
         btn3.disabled = "true";
@@ -241,7 +241,7 @@ function check() {
         btn6.disabled = "true";
     } else if (btn9.value == "0" && btn6.value == "0" && btn3.value == "0") {
         console.log("0 won");
-        info.innerHTML = "0 Won The Game";
+        info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn1.disabled = "true";
         btn2.disabled = "true";
         btn4.disabled = "true";
@@ -250,7 +250,7 @@ function check() {
         btn8.disabled = "true";
     } else if (btn1.value == "0" && btn5.value == "0" && btn9.value == "0") {
         console.log("0 won");
-        info.innerHTML = "0 Won The Game";
+        info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn2.disabled = "true";
         btn3.disabled = "true";
         btn4.disabled = "true";
@@ -259,7 +259,7 @@ function check() {
         btn8.disabled = "true";
     } else if (btn3.value == "0" && btn5.value == "0" && btn7.value == "0") {
         console.log("0 won");
-        info.innerHTML = "0 Won The Game";
+        info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn1.disabled = "true";
         btn2.disabled = "true";
         btn4.disabled = "true";
@@ -268,7 +268,7 @@ function check() {
         btn9.disabled = "true";
     } else if (btn2.value == "0" && btn5.value == "0" && btn8.value == "0") {
         console.log("0 won");
-        info.innerHTML = "0 Won The Game";
+        info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn1.disabled = "true";
         btn3.disabled = "true";
         btn4.disabled = "true";
@@ -277,7 +277,7 @@ function check() {
         btn9.disabled = "true";
     } else if (btn4.value == "0" && btn5.value == "0" && btn6.value == "0") {
         console.log("0 won");
-        info.innerHTML = "0 Won The Game";
+        info.innerHTML = "0 Won The Game 🎉\n Better Luck Next Time Player X 😊";
         btn1.disabled = "true";
         btn2.disabled = "true";
         btn3.disabled = "true";
@@ -288,7 +288,7 @@ function check() {
         (btn3.value == "X" || btn3.value == "0") && (btn4.value == "X" || btn4.value == "0") && (btn5.value == "X" || btn5.value == "0") && (btn6.value == "X" || btn6.value == "0")
         && (btn7.value == "X" || btn7.value == "0") && (btn8.value == "X" || btn8.value == "0")
         && (btn9.value == "X" || btn9.value == "0")) {
-        info.innerHTML = "TIED"
+        info.innerHTML = "Match is Tied, Seems Like both are tough competitors 🤔";
     }
 }
 
